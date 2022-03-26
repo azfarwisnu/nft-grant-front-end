@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+body {
+    width: 100%;
+    font-size: 16px;
+    font-family: "Inter";
+    background-color: #18171C;
+    color:white;
+    overflow-x: hidden
+}
+
+.set-radius{
+    border-radius: 12px;
+}
+
+.lg-font {
+    font-size: 22px;
+}
+
+
+/* home css */
+
+.chart-font{
+    color: #30CFBC
+}
+
+.head-section img {
+    width: 130px;
+}
+
+.container .head-section button {
+    border-radius: 10px;
+    height: 35px;
+    border: none;
+}
+
+.body-section .box-nft img {
+    width: 100%;
+}
+
+.box-nft, img{
+    border-radius: 12px;
+}
+
+
+.body-section img {
+    width: 100%;
+}
+
+.body-section .nft-mint img{
+    width: 80%;
+}
+
+.head-section input{
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+/*media screen*/
+@media only screen and (max-width: 700px) {
+    body {
+        width: 100%;
+        font-size: 12px;
+        font-family: "Inter";
+        background-color: #18171C;
+        color:white;
+        overflow-x: hidden
+    }
+    .head-section input{
+        display: none;
+    }
+
+    .btn-head{
+        display: none;
+    }
+
+    .body-section .box-nft {
+        width: 150px;
+    }
+
+    
+    .body-section .nft-mint img{
+        width: 100%;
+    }
+}
